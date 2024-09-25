@@ -1,0 +1,53 @@
+.active{
+    background-color: #5932EA;
+    color: #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.inactive{
+    background-color: #FFFFFF;
+    color: #9197B3;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.p-half{
+    padding: 0.5rem 1rem;
+}
+span{
+    float: inline-end;
+}
+span.align-right{
+    float: inline-start;
+    padding-right: 0.7rem;
+    font-size: 2rem;
+    margin-top: 6px;
+}
+.px-6{
+    padding: 0px 5rem;
+}
+.custom-search , .custom-search:hover{
+    background-color: #5932EA;
+    color: #FFFFFF;
+}
+#showDetails{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 30px;
+}
+#showDetails .card{
+    background-color: #F8FAFF;
+}
+#showDetails .card-title{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.card-body p{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <title>Pagination</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-2 col-md-4 col-lg-2 vh-100"
+          style="background-color: #ffffff"
+        >
+          <div class="row mb-2 mt-3">
+            <div class="col">
+              <h1 style="font-size: 2rem">Categories</h1>
+            </div>
+          </div>
+          <div class="row">
+            <hr />
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="select-category-js active">
+                <p class="category p-half">jhsd</p>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="select-category-js inactive">
+                <p class="category p-half">
+                  jhsd <span><i class="bi bi-chevron-right"></i></span>
+                </p>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="select-category-js inactive">
+                <p class="category p-half">jhsd</p>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="select-category-js inactive">
+                <p class="category p-half">jhsd</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10" style="background-color: #f8faff">
+          <div class="row px-6">
+            <div
+              class="col-12 mt-3 mb-5 d-flex justify-content-between align-items-center"
+            >
+              <div>
+                <h2 id="hell">hciujas</h2>
+              </div>
+              <div>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn custom-search">Search</button>
+                </form>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row" id="showDetails">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
